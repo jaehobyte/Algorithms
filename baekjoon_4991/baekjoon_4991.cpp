@@ -55,7 +55,6 @@ int main() {
             }
         }
         int l = b.size();
-        cout << l << endl;
         vector<vector<int>> d(l, vector<int>(l));
         bool ok = true;
         for (int i = 0; i < l; i++) {
