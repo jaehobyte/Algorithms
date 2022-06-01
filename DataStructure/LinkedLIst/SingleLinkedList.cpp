@@ -50,7 +50,6 @@ void addNode2Tail(int data)
 	}
 }
 
-// 지정된 순서에 노드 추가
 void addNode2Num(int data, int num)
 {
 	if (num == 1) {
@@ -88,7 +87,6 @@ void removeNode(int data)
 	}
 }
 
-//output[] 배열에 리스트 노드의 data를 차례로 넣고 총 노드개수 return
 int getList(int output[MAX_NODE])
 {
 	int i = 0;
